@@ -1,8 +1,8 @@
 # Teleoperazione subacquea in condizioni di comunicazione degradate
 ### Un caso di studio con un prototipo a base fissa
 
-Questo repository contiene il materiale sperimentale e i risultati principali della mia tesi magistrale.  
-L’obiettivo del lavoro è stato studiare un sistema di **teleoperazione subacquea** (onshore - offshore) in scenari con **comunicazione degradata**, con focus sulla latenza, utilizzando un prototipo a base fissa.
+Questa repository contiene il materiale sperimentale e i risultati principali della mia tesi di laurea magistrale in Ingengneria Informatica.  
+L’obiettivo del lavoro è stato studiare un sistema di **teleoperazione subacquea** (onshore - offshore) in scenari con **comunicazione degradata**, con particolare focus sulla latenza, utilizzando un prototipo a base fissa.
 
 ### Architettura realizzata
 ![Mappa Concettuale Strategia Branstorming Idea Bianco Nero Moderno Professionale Lavoro](https://github.com/user-attachments/assets/c59fe8df-ef2f-4676-b024-0ae1c09d6ad4)
