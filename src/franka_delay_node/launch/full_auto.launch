@@ -1,0 +1,15 @@
+<launch>
+  <!-- Argomento configurabile da terminale -->
+  <!-- <arg name="control_mode" default="auto" /> -->
+
+  <!-- Nodo generazione traiettoria -->
+  <node name="lai_trajectory_node" pkg="lai_trajectory" type="lai_trajectory_node" output="screen" />
+
+  <!-- Nodo action server Pick and Place -->
+  <node name="lai_pick_and_place_node" pkg="lai_pick_and_place" type="lai_pick_and_place_node" output="screen" />
+
+  <!-- Nodo che pubblica posizione oggetti -->
+  <node name="obj_position_pub_mio_node" pkg="obj_position_pub" type="obj_position_pub_mio_node" output="screen" />
+
+
+</launch>

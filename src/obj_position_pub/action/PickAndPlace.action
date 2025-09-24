@@ -1,0 +1,17 @@
+#---Goal
+geometry_msgs/Point pick_position
+geometry_msgs/Quaternion pick_orientation
+float64 picking_time
+
+geometry_msgs/Point place_position
+geometry_msgs/Quaternion place_orientation
+float64 placing_time
+
+float64 gripper_width
+---
+
+#---Result
+uint8 Result
+---
+
+#---Feedback

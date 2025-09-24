@@ -1,0 +1,49 @@
+<launch>
+
+  <!-- Parametri configurabili -->
+  <!-- <param name="control_mode" value="manual"/>      -->
+  <!-- <param name="use_sim_time" value="true" /> -->
+
+  <arg name="delay_sec" default="0.0"/>          <!-- Ritardo attivato/disattivato -->
+  <arg name="forward_delay" default="0.0" />     <!-- Ritardo in avanti (onshore->offshore) -->
+  <arg name="return_delay" default="0.0" />      <!-- Ritardo feedback (robot->onshore) -->
+  <!-- <arg name="joint_state_delay" default="0.0" />  -->
+  <!-- <arg name="control_mode" default="auto" />     -->
+  
+  <!-- Parametro per debug: se true, pubblica anche i messaggi non ritardati -->
+  <arg name="debug_unbuffered" default="false" />
+
+  
+  <!-- Nodo Onshore -->
+  <node name="onshore_node" pkg="franka_delay_node" type="onshore_node" output="screen">
+    <param name="delay_sec" value="$(arg delay_sec)" />
+    <param name="forward_delay" value="$(arg forward_delay)" />
+    <!-- <param name="control_mode" value="$(arg control_mode)" /> -->
+
+<!-- <node name="prova_onshore_node" pkg="franka_delay_node" type="prova_onshore_node" output="screen">
+    <param name="delay_sec" value="$(arg delay_sec)" />
+    <param name="forward_delay" value="$(arg forward_delay)" />
+    <param name="control_mode" value="$(arg control_mode)" /> -->
+
+<!-- Topic aggiuntivi per debug -->
+  <param name="publish_unbuffered" value="$(arg debug_unbuffered)" />
+    <remap from="cmd_vel" to="raw_cmd_vel" if="$(arg debug_unbuffered)"/>
+  </node>
+
+
+  <!-- Nodo Offshore -->
+  <node name="offshore_node" pkg="franka_delay_node" type="offshore_node" output="screen">
+    <param name="return_delay" value="$(arg return_delay)" />
+    <!-- <param name="control_mode" value="$(arg control_mode)" /> -->
+  </node>
+
+  <!-- Nodo Visualizer -->
+  <node name="obj_marker_delay"
+        pkg="ros_visualizer"
+        type="obj_marker_delay.py"
+        output="screen">
+    <param name="robot_delay" value="0.2" />
+  </node>
+
+</launch> 
+

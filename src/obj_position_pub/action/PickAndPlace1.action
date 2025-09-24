@@ -1,0 +1,15 @@
+# Goal
+std_msgs/Header header
+geometry_msgs/Pose pose
+float64 time
+---
+
+# Result
+# uint8 actionID
+# uint8 result
+
+---
+
+# Feedback
+# uint8 actionID
+# geometry_msgs/Pose current_pose
