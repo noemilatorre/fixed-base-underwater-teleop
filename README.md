@@ -5,8 +5,8 @@ Questa repository contiene il materiale sperimentale e i risultati principali de
 L’obiettivo del lavoro è stato studiare un sistema di **teleoperazione subacquea** (onshore - offshore) in scenari con **comunicazione degradata**, con particolare focus sulla latenza, utilizzando un prototipo a base fissa.
 
 ### Strumenti utilizzati
-- robot collaborativo **Franka Emika Panda**
-- telecamera RGB RealSense
+- Robot collaborativo **Franka Emika Panda**
+- Telecamera RGB Intel RealSense
 - Ubuntu 20.04
 - Robot Operating System (ROS1)
 - RViz
