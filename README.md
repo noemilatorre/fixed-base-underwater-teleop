@@ -14,9 +14,10 @@ L’obiettivo del lavoro è stato studiare un sistema di **teleoperazione subacq
 ## 📊 Analisi dei risultati
 Sono stati raccolti e analizzati dati relativi a:
 - Tempo di completamento per l'operazione di pick and place
-- Errore medio di tracking per l'operazione di inseguimento di riferimento
-
   <img width="989" height="590" alt="pick" src="https://github.com/user-attachments/assets/220f88ad-589e-4831-ac25-2cae993bd01b" />
+
+- Errore medio di tracking per l'operazione di inseguimento di riferimento
+    
 <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/8a9adb69-19fc-4214-b91a-c6d64ec10dc9" />
 
 ## Video dimostrativi 
