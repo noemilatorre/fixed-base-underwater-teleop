@@ -24,7 +24,7 @@ Il progetto investiga le sfide della teleoperazione in ambienti subacquei caratt
 ![Mappa Concettuale Strategia Branstorming Idea Bianco Nero Moderno Professionale Lavoro](https://github.com/user-attachments/assets/c59fe8df-ef2f-4676-b024-0ae1c09d6ad4)
 
 ### Gestione del ritardo bidirezionale simulato
-<img width="1920" height="1080" alt="img2" src="https://github.com/user-attachments/assets/ab035cec-8814-4d01-b0c9-b986567e7c48" />
+<img width="700" height="420" alt="img2" src="https://github.com/user-attachments/assets/ab035cec-8814-4d01-b0c9-b986567e7c48" />
 
 Il sistema implementa un'architettura distribuita che simula realisticamente le condizioni di comunicazione degradata tipiche degli ambienti subacquei.
 
@@ -33,12 +33,12 @@ Il sistema implementa un'architettura distribuita che simula realisticamente le 
 ## Risultati Sperimentali
 
 ### Tempo di Completamento - Operazione Pick and Place 
-  <img width="989" height="590" alt="pick" src="https://github.com/user-attachments/assets/220f88ad-589e-4831-ac25-2cae993bd01b" />
+  <img width="700" height="420" alt="pick" src="https://github.com/user-attachments/assets/220f88ad-589e-4831-ac25-2cae993bd01b" />
   
 *Analisi del tempo richiesto per completare operazioni di pick-and-place al variare della latenza di comunicazione sia per la modalità manuale che automatica.*
 
 ### Errore Medio di Tracking - Operazione Follow Cube
-<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/8a9adb69-19fc-4214-b91a-c6d64ec10dc9" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/8a9adb69-19fc-4214-b91a-c6d64ec10dc9" />
 
 *Valutazione della precisione nell'errore di tracking di riferimento in condizioni di ritardo di comunicazione confrontando modalità manuale e automatica all'aumentare del ritardo.*
 
@@ -72,7 +72,7 @@ Il sistema implementa un'architettura distribuita che simula realisticamente le 
 **Noemi La Torre**
 
 - Email: latorre.noemi17@gmail.com
-- LinkedIn: [linkedin.com/in/noemilatorre](https://linkedin.com/in/noemilatorre)
+- LinkedIn: [linkedin.com/noemi-la-torre](https://www.linkedin.com/in/noemi-la-torre/).
 - GitHub: [github.com/noemilatorre](https://github.com/noemilatorre)
 - Portfolio: [noemilatorre.github.io](https://noemilatorre.github.io)
 
