@@ -21,7 +21,7 @@ Il progetto investiga le sfide della teleoperazione in ambienti subacquei caratt
 ---
 
 ### Architettura realizzata
-![Mappa Concettuale Strategia Branstorming Idea Bianco Nero Moderno Professionale Lavoro](https://github.com/user-attachments/assets/c59fe8df-ef2f-4676-b024-0ae1c09d6ad4)
+<img width="700" height="440" alt="image" src="https://github.com/user-attachments/assets/263a2342-cbe5-466a-865b-9ca75af94662" />
 
 ### Gestione del ritardo bidirezionale simulato
 <img width="700" height="420" alt="img2" src="https://github.com/user-attachments/assets/ab035cec-8814-4d01-b0c9-b986567e7c48" />
