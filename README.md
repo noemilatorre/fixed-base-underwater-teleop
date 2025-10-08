@@ -21,7 +21,7 @@ Il progetto investiga le sfide della teleoperazione in ambienti subacquei caratt
 ---
 
 ### Architettura realizzata
-<img width="700" height="440" alt="image" src="https://github.com/user-attachments/assets/263a2342-cbe5-466a-865b-9ca75af94662" />
+<img width="600" height="440" alt="image" src="https://github.com/user-attachments/assets/263a2342-cbe5-466a-865b-9ca75af94662" />
 
 ### Gestione del ritardo bidirezionale simulato
 <img width="700" height="420" alt="img2" src="https://github.com/user-attachments/assets/ab035cec-8814-4d01-b0c9-b986567e7c48" />
