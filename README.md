@@ -62,9 +62,11 @@ Il sistema implementa un'architettura distribuita che simula realisticamente le 
 
 ## Video dimostrativi 
 - Follow cube in modalità manuale con (500 ms di delay)
+[Guarda il video](Video/automatico_follow_delay500.mp4)
 
 - Follow cube in modalità automatica con (500 ms di delay)
 
+[Guarda il video](Video/manual_follow_delay500.mp4)
 ## Autrice
 
 **Noemi La Torre**
